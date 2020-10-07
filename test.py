@@ -15,7 +15,7 @@ builder = Grocery()
 builder.download_and_prepare()
 
 train_dataset = builder.as_dataset(split="train")
-validation_dataset = builder.as_datset(split="test")
+validation_dataset = builder.as_dataset(split="test")
 
 assert(isinstance(train_dataset, tf.data.Dataset))
 assert(isinstance(validation_dataset, tf.data.Dataset))

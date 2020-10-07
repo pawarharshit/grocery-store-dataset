@@ -1,2 +1,4 @@
 .vscode/
 grocery/__pycache__
+ipynb_checkpoints/
+grocery/url_checksums/.ipynb_checkpoints/
